@@ -27,12 +27,19 @@ export const High: Story = {
   args: {
     label: highLabel,
     defaultValue: 80,
+    color: 'secondary',
   },
 };
 
 export const SinLabel: Story = {
   args: {
     label: '',
+    defaultValue: 50,
+  },
+};
+export const ConTextoPersonalizado: Story = {
+  args: {
+    label: 'Brillo de pantalla',
     defaultValue: 50,
   },
 };
